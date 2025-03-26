@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=League+Spartan:wght@100..900&family=Libre+Baskerville&display=swap');
+
+body{
+    margin: 0;
+}
+
+/* Main container to center the timer */
+.main-timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Makes the container take up the full viewport height */
+    position: relative;
+    background: url("https://res.cloudinary.com/dtjlqngvn/image/upload/v1742239722/nlphbtktiiog1tw8z0ba.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Position for the "About" button at the top-right corner */
+  .about-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    padding: 20px;
+    font-size: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 10rem;
+    cursor: pointer;
+  }
+  
+  .about-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Timer container styling */
+  .timer-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling the heading and timer */
+  .title-header {
+    font-family: "Dr Sugiyama";
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .timer-counter {
+    font-size: 5rem;
+    font-family: "Libre Baskerville";
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Start button styling */
+  .button-form {
+    padding: 20px;
+    font-size: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 15rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .button-form:hover {
+    background-color: #45a049;
+    transform: translateY(-5px);
+  }
+
+
+
+.input-form{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.input-form::placeholder{
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.form-custom{
+  display: flex;
+  gap: 10px;
+}
+  
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}

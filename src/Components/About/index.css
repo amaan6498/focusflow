@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=League+Spartan:wght@100..900&family=Libre+Baskerville&display=swap');
+
+.about{
+    background: url("https://4kwallpapers.com/images/walls/thumbs_2t/4523.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.text-part{
+    margin: 30px;
+}
+
+.button-part{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.about-header{
+    font-family: "Libre Baskerville";
+    font-size: 72px;
+    color: white;
+    font-style: italic;
+}
+
+.about-para{
+    font-family: "Libre Baskerville";
+    font-size: 24px;
+    color: white;
+}
+
+.button-links {
+    padding: 20px;
+    font-size: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 20rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button-links:hover{
+    transform: translateY(-5px);
+}
